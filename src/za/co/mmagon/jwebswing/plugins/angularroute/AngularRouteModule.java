@@ -10,20 +10,20 @@ import za.co.mmagon.jwebswing.base.angular.modules.AngularModuleBase;
  */
 class AngularRouteModule extends AngularModuleBase
 {
-
-    private static final long serialVersionUID = 1L;
-
-    /*
-     * Constructs a new AngularRouteModule
-     */
-    public AngularRouteModule()
-    {
-        super("ngRoute");
-    }
-
-    @Override
-    public String renderFunction()
-    {
-        return null;
-    }
+	
+	private static final long serialVersionUID = 1L;
+	
+	/*
+	 * Constructs a new AngularRouteModule
+	 */
+	public AngularRouteModule()
+	{
+		super("ngRoute");
+	}
+	
+	@Override
+	public String renderFunction()
+	{
+		return null;
+	}
 }

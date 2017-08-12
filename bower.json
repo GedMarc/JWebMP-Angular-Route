@@ -17,6 +17,6 @@
     "tests"
   ],
   "dependencies": {
-		"angular-route": "*"
+    "angular-route": "*"
   }
 }
