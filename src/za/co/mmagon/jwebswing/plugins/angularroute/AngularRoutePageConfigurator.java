@@ -28,11 +28,12 @@ import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
 )
 @ComponentInformation(name = "AngularJS Routing",
 		description = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps)",
-		url = "https://docs.angularjs.org/api/ngRoute") class AngularRoutePageConfigurator extends PageConfigurator
+		url = "https://docs.angularjs.org/api/ngRoute")
+public class AngularRoutePageConfigurator extends PageConfigurator
 {
-	
+
 	private static final long serialVersionUID = 1L;
-	
+
 	/*
 	 * Constructs a new AngularRoutePageConfigurator
 	 */
@@ -40,7 +41,7 @@ import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
 	{
 		//Nothing needed
 	}
-	
+
 	@Override
 	public Page configure(Page page)
 	{
