@@ -17,7 +17,6 @@
 
 package com.jwebmp.plugins.angularroute;
 
-import com.jwebmp.BaseTestClass;
 import com.jwebmp.Page;
 import org.junit.jupiter.api.Test;
 
@@ -25,7 +24,6 @@ import org.junit.jupiter.api.Test;
  * @author Marc Magon
  */
 public class AngularRoutePageConfiguratorTest
-		extends BaseTestClass
 {
 
 	public AngularRoutePageConfiguratorTest()
@@ -35,7 +33,7 @@ public class AngularRoutePageConfiguratorTest
 	@Test
 	public void testSomeMethod()
 	{
-		Page p = getInstance();
+		Page p = new Page();
 		System.out.println(p.toString(0));
 	}
 
