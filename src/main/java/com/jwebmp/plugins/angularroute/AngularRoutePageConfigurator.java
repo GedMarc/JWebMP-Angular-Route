@@ -18,11 +18,11 @@
 package com.jwebmp.plugins.angularroute;
 
 import com.jwebmp.core.Page;
-import com.jwebmp.core.PageConfigurator;
 import com.jwebmp.core.base.angular.AngularPageConfigurator;
 import com.jwebmp.core.plugins.ComponentInformation;
 import com.jwebmp.core.plugins.PluginInformation;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
+import com.jwebmp.core.services.IPageConfigurator;
 
 /**
  * @author Marc Magon
@@ -46,10 +46,8 @@ import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
 		description = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps)",
 		url = "https://docs.angularjs.org/api/ngRoute")
 public class AngularRoutePageConfigurator
-		extends PageConfigurator
+		implements IPageConfigurator
 {
-
-	private static final long serialVersionUID = 1L;
 
 	/*
 	 * Constructs a new AngularRoutePageConfigurator
@@ -68,9 +66,6 @@ public class AngularRoutePageConfigurator
 			AngularPageConfigurator.setRequired(true);
 			page.getBody()
 			    .addJavaScriptReference(AngularRouteReferencePool.AngularRoute.getJavaScriptReference());
-			page.getAngular()
-			    .getAngularModules()
-			    .add(new AngularRouteModule());
 		}
 		return page;
 	}
