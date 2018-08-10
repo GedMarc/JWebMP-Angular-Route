@@ -24,6 +24,8 @@ import com.jwebmp.core.plugins.PluginInformation;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
 import com.jwebmp.core.services.IPageConfigurator;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * @author Marc Magon
  * @since 08 Jun 2017
@@ -57,6 +59,7 @@ public class AngularRoutePageConfigurator
 		//Nothing needed
 	}
 
+	@NotNull
 	@Override
 	public Page configure(Page page)
 	{

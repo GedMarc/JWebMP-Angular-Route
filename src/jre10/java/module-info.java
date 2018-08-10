@@ -7,6 +7,7 @@ module com.jwebmp.plugins.angularroute {
 	exports com.jwebmp.plugins.angularroute;
 
 	requires com.jwebmp.core;
+	requires java.validation;
 	provides IPageConfigurator with AngularRoutePageConfigurator;
 	provides IAngularModule with AngularRouteModule;
 
