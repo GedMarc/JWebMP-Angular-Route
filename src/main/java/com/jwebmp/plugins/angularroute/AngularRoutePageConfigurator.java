@@ -38,8 +38,8 @@ import javax.validation.constraints.NotNull;
 		pluginCategories = "angular,routing, ui,web ui, framework",
 		pluginSubtitle = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps)",
 		pluginSourceUrl = "https://docs.angularjs.org/api/ngRoute",
-		pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Angular-Route/wiki",
-		pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Angular-Route",
+		pluginWikiUrl = "https://github.com/GedMarc/JWebMP-Angular-Route/wiki",
+		pluginGitUrl = "https://github.com/GedMarc/JWebMP-Angular-Route",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://docs.angularjs.org/api/ngRoute",
@@ -48,7 +48,7 @@ import javax.validation.constraints.NotNull;
 		description = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps)",
 		url = "https://docs.angularjs.org/api/ngRoute")
 public class AngularRoutePageConfigurator
-		implements IPageConfigurator
+		implements IPageConfigurator<AngularRoutePageConfigurator>
 {
 	/**
 	 * If this configurator is enabled
