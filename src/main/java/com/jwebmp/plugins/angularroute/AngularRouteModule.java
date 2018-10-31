@@ -31,7 +31,6 @@ public class AngularRouteModule
 		implements IAngularModule<AngularRouteModule>
 {
 
-	private static final long serialVersionUID = 1L;
 
 	/*
 	 * Constructs a new AngularRouteModule
