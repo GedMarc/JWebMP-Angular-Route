@@ -18,7 +18,6 @@
 package com.jwebmp.plugins.angularroute;
 
 import com.jwebmp.core.base.angular.modules.AngularModuleBase;
-import com.jwebmp.core.base.angular.services.IAngularModule;
 
 /**
  * The module getting loaded into angular
@@ -27,11 +26,8 @@ import com.jwebmp.core.base.angular.services.IAngularModule;
  * @since 08 Jun 2017
  */
 public class AngularRouteModule
-		extends AngularModuleBase
-		implements IAngularModule<AngularRouteModule>
+		extends AngularModuleBase<AngularRouteModule>
 {
-
-
 	/*
 	 * Constructs a new AngularRouteModule
 	 */

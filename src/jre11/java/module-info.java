@@ -12,6 +12,7 @@ module com.jwebmp.plugins.angularroute {
 	requires com.jwebmp.core;
 	requires java.validation;
 	requires com.jwebmp.guicedinjection;
+	requires com.jwebmp.core.angularjs;
 
 	provides IPageConfigurator with AngularRoutePageConfigurator;
 	provides IAngularModule with AngularRouteModule;
