@@ -21,6 +21,7 @@ import com.jwebmp.core.Page;
 import com.jwebmp.core.base.angular.AngularPageConfigurator;
 import com.jwebmp.core.plugins.ComponentInformation;
 import com.jwebmp.core.plugins.PluginInformation;
+import com.jwebmp.core.plugins.PluginStatus;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
 import com.jwebmp.core.services.IPageConfigurator;
 
@@ -34,7 +35,7 @@ import jakarta.validation.constraints.NotNull;
 		pluginDescription = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps). " +
 		                    "<br/><i>Please note JWebSwing has no dependancy on Angular Routing and is included as a dependancy for other applications, or when a direct MVC approach is used.</i>",
 		pluginUniqueName = "jwebswing-angular-routing",
-		pluginVersion = "1.6.4",
+		pluginVersion = "1.8.2",
 		pluginCategories = "angular,routing, ui,web ui, framework",
 		pluginSubtitle = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps)",
 		pluginSourceUrl = "https://docs.angularjs.org/api/ngRoute",
@@ -43,7 +44,14 @@ import jakarta.validation.constraints.NotNull;
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://docs.angularjs.org/api/ngRoute",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularRoute.jar/download")
+		pluginDownloadUrl = "https://mvnrepository.com/artifact/com.jwebmp.plugins.angular/jwebmp-angular-route",
+		pluginGroupId = "com.jwebmp.plugins.angular",
+		pluginArtifactId = "jwebmp-angular-route",
+		pluginModuleName = "com.jwebmp.plugins.angularroute",
+		pluginStatus = PluginStatus.Released
+)
+
+
 @ComponentInformation(name = "AngularJS Routing",
 		description = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps)",
 		url = "https://docs.angularjs.org/api/ngRoute")

@@ -1,3 +1,5 @@
+import com.jwebmp.plugins.angularroute.implementations.AngularRouteModuleInclusion;
+
 module com.jwebmp.plugins.angularroute {
 	exports com.jwebmp.plugins.angularroute;
 
@@ -10,5 +12,5 @@ module com.jwebmp.plugins.angularroute {
 	provides com.jwebmp.core.base.angular.services.IAngularModule with com.jwebmp.plugins.angularroute.AngularRouteModule;
 
 	provides com.guicedee.guicedinjection.interfaces.IGuiceScanModuleExclusions with com.jwebmp.plugins.angularroute.implementations.AngularRouteExclusionsModule;
-
+	provides com.guicedee.guicedinjection.interfaces.IGuiceScanModuleInclusions with AngularRouteModuleInclusion;
 }

@@ -31,7 +31,7 @@ import com.jwebmp.core.base.servlets.interfaces.ReferencePool;
 enum AngularRouteReferencePool
 		implements ReferencePool
 {
-	AngularRoute(new JavascriptReference("AngularRoute", 1.6, "bower_components/angular-route/angular-route.js"), null);
+	AngularRoute(new JavascriptReference("AngularRoute", 1.82, "bower_components/angular-route/angular-route.js"), null);
 	/**
 	 * Any sub data
 	 */
