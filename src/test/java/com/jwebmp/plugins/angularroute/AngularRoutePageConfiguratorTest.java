@@ -33,7 +33,7 @@ public class AngularRoutePageConfiguratorTest
 	@Test
 	public void testSomeMethod()
 	{
-		Page p = new Page();
+		Page<?> p = new Page();
 		System.out.println(p.toString(0));
 	}
 
