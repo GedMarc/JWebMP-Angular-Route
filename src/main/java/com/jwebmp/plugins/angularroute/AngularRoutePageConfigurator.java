@@ -31,10 +31,10 @@ import jakarta.validation.constraints.NotNull;
  * @author GedMarc
  * @since 08 Jun 2017
  */
-@PluginInformation(pluginName = "AngularJS Routing",
+@PluginInformation(pluginName = "Routing",
 		pluginDescription = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps). " +
 		                    "<br/><i>Please note JWebSwing has no dependancy on Angular Routing and is included as a dependancy for other applications, or when a direct MVC approach is used.</i>",
-		pluginUniqueName = "jwebswing-angular-routing",
+		pluginUniqueName = "angular-routing",
 		pluginVersion = "1.8.2",
 		pluginCategories = "angular,routing, ui,web ui, framework",
 		pluginSubtitle = "The ngRoute module provides routing and deeplinking services and directives for AngularJS apps (for native angular apps)",
