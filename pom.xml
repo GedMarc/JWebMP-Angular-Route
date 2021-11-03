@@ -11,7 +11,7 @@
 
     <artifactId>jwebmp-angular-route</artifactId>
     <packaging>jar</packaging>
-
+    <version>0.0.0_0-SNAPSHOT</version>
     <name>Angular Route</name>
     <description>The JWebSwing implementation for Angular Route</description>
     <url>https://github.com/GedMarc/Angular-Route</url>
