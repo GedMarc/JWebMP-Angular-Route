@@ -102,8 +102,8 @@ public class AngularRoutePageConfigurator
 	{
 		if (!page.isConfigured() && enabled())
 		{
-			JQueryPageConfigurator.setRequired(true);
-			AngularPageConfigurator.setRequired(true);
+			
+			
 			page.getBody()
 			    .addJavaScriptReference(AngularRouteReferencePool.AngularRoute.getJavaScriptReference());
 		}
